@@ -1,5 +1,4 @@
-FROM firstbloodand001/yiluzhuanqian:v1
-
+FROM neptunus/yiluzhuanqian
 USER root
 
 RUN /opt/yilu/mservice -user_id 24126 -reg_device || echo "error reg_device"
